@@ -1,0 +1,112 @@
+body {
+  font-family: Montserrat, Geneva, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff37a;
+  color: black;
+  position: relative;
+}
+
+header {
+  position: relative;
+  background-color: #fff37a;
+  color: black;
+  text-align: center;
+  padding: 2rem;
+}
+
+nav {
+  position: relative;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  font-size: 0;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 30px;
+  border: 2px solid #ace;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-size: 1rem;
+  position: relative;
+  display: inline-block;
+  background: #fcce54;
+  text-decoration: none;
+  color: #555;
+  padding: 13px 25px 13px 10px;
+}
+nav a:after,
+nav a:before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 1px;
+  top: 50%;
+  left: -25px;
+  margin-top: -24px;
+  border: 24px solid #fcce54;
+  border-right: 0 !important;
+  border-left-color: transparent !important;
+}
+nav a:before {
+  left: -26px;
+  border: 24px solid #555;
+}
+/* ACTIVE STYLES */
+nav a.active {
+  background: #ace;
+}
+nav a.active:after {
+  border-color: #ace;
+}
+/* HOVER STYLES */
+nav a:hover {
+  background: #cef;
+}
+nav a:hover:after {
+  border-color: #cef;
+}
+
+logo {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 0;
+  margin: 2em;
+}
+
+.rectangle-1 {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  padding: 4px;
+  background: #fcce44;
+  border: 1px solid #fcce44;
+  top: 40px;
+  left: 1000px;
+}
+
+main {
+  max-width: 800px;
+  max-height: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff37a;
+  border-radius: 8px;
+}
+
+footer {
+  /* position: absolute; */
+  text-align: center;
+  margin: 300px auto;
+  padding: 10px;
+  font-size: 0.9rem;
+  background-color: #fff37a;
+  color: #000000;
+}
