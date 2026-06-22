@@ -27,7 +27,7 @@ nav ul {
   overflow: hidden;
   display: inline-block;
   border-radius: 30px;
-  border: 2px solid #ace;
+  border: 4px solid #ace;
 }
 nav li {
   display: inline-block;
@@ -39,7 +39,7 @@ nav a {
   background: #fcce54;
   text-decoration: none;
   color: #555;
-  padding: 13px 25px 13px 10px;
+  padding: 15px 30px 15px 12px;
 }
 nav a:after,
 nav a:before {
